@@ -20,7 +20,6 @@ OSVersion: focal
 %setup
 
 %environment
- 
     # Set operating system mirror URL
     export MIRRORURL='http://us.archive.ubuntu.com/ubuntu'
 
