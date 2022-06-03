@@ -58,7 +58,8 @@ jobs:
             libgpgme11-dev \
             squashfs-tools \
             libseccomp-dev \
-            pkg-config
+            pkg-config \
+            debootstrap
 
       - name: Install Singularity
         if: ${{ env.keepgoing == 'true' }}
